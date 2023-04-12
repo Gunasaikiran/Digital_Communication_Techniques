@@ -13,7 +13,9 @@ These are my academic Labs Which are implemented Using Matlab, Case study are wr
 2)Convolutional_encoding<br>
 3)Linear_block_code<br>
 3)Syndrome_Decoder<br>
-3)Cyclic_Code<br>
+3)Cyclic_Code<br><bt>
+  
+
 <li>Case Studies</li>
 1)Huffman_coding<br>
 2)ShannonFeno_Coding<br>
