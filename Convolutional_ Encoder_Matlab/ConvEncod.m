@@ -1,0 +1,14 @@
+clc;
+clear all;
+K = input('Enter the bit rate:');
+G1= input('Enter the output vector1:');
+G2=  input('Enter the output Vector2:');
+msg =  input('Enter the message signal:');
+trellis = poly2trellis(K,[G1,G2]);
+coded = convenc(msg,trellis);
+tblen=length(msg);
+disp('Message signal Length:');
+disp(tblen);
+decoded = vitdec(coded,trellis,tblen,'trunc','hard');
+disp('Decoded Output:');
+disp(decoded);
